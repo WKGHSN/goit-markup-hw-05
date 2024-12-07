@@ -320,14 +320,33 @@ overflow: hidden;
 .footer-logo {
     color: #4d5ae5;
 }
-
+.footer-contener {
+display: flex;
+align-items: baseline;
+margin-right: 120px;
+}
 .footer-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
-
+.social-list {
+    display: flex;
+    gap: 16px;
+}
+.social-item {
+    width: 40px;
+    height: 40px;
+}
 .logo-text-s {
     color: #F4F4FD;
+}
+.list-item-class:first-child .link-class:hover,
+.list-item-class:first-child .link-class:focus {
+    background-color: #31d0aa;
 }
