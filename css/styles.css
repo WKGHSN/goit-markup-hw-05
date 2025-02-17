@@ -436,7 +436,7 @@ img {
     width: 264px;
 }
 
-.footer-paragraph-sm {
+.footer-paragraph {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -631,6 +631,8 @@ input::placeholder {
     margin-bottom: 16px;
     text-align: center;
 }
+
+.modal-form {}
 
 .modal-form-field {
     margin-bottom: 8px;
